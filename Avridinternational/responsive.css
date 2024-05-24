@@ -1,0 +1,68 @@
+@media (max-width:1235px) {
+ .allBtn_section1 {
+  width: 150%;
+ }
+
+ .imgs_section1 {
+  right: -480px;
+ }
+
+}
+
+@media (max-width:1135px) {
+ .allBtn_section1 {
+  width: 150%;
+ }
+
+ .imgs_section1 {
+  right: -560px;
+ }
+
+
+}
+@media (max-width:1010px) {
+ .allBtn_section1 {
+  width: 180%;
+ }
+
+ .imgs_section1 {
+  right: -760px;
+ }
+
+ .liste{
+  display: none;
+ }
+ .phone-nav{
+  display: flex;
+  position: relative;
+  left: -30px;
+ }
+
+ .listphone {
+  display: flex;
+  width: 85PX;
+  height: 80px;
+ }
+
+}
+
+@media (max-width:840px) {
+/* START CHANGE DESIGN */
+.container0{
+ position: relative;
+ width: 100%;
+}
+.imgs_section1{
+ display: none;
+}
+.right-elements{
+ background-color: yellow;
+ position: absolute;
+ width: 100%;
+}
+.title1{
+ background-color: yellow;
+ width: 100%;
+ 
+}
+}

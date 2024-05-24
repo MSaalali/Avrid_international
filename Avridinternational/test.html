@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="menu-txt">
+      <div class="menu-item">Acceuil</div>
+      <div class="menu-item">Store</div>
+      <div class="menu-item">Services</div>
+      <div class="menu-item">Contactez-nous</div>
+    </div>
+    <div class="cta-Sign">
+      <div class="cta">
+        <p>Sign in</p>
+      </div>
+      <button class="Sign-btn">Sign up</button>
+    </div>
+  </div>
+
+  <style>
+
+    .container {
+      position: absolute;
+      width: 220px;
+      height: 200px;
+      display: grid;
+      justify-items: center;
+      align-items: center;
+      background: rgba(21, 114, 211, 0.40);
+      border-radius: 5px;
+      backdrop-filter: blur(4px);
+      z-index: -5;
+      
+    }
+
+    .menu-txt {
+      position: absolute;
+      width: 210px;
+      height: 140px;
+      cursor: pointer;
+      top: 3%;
+      display: grid;
+      justify-items: center;
+      align-items: center;
+    }
+
+    .cta {
+      width: 10vh;
+      height: 4vh;
+      text-align: center;
+      justify-content: center;
+      display: flex;
+      align-items: center;
+    }
+
+    .cta-Sign {
+      width: 180px;
+      display: flex;
+      justify-content: space-evenly;
+      position: absolute;
+      bottom: 5%;
+      cursor: pointer;
+    }
+
+    .Sign-btn {
+      background-color: #1572D3;
+      border: none;
+      border-radius: 6px;
+      text-align: center;
+      color: #fff;
+      padding: 5px 20px;
+      cursor: pointer;
+    }
+
+    .menu-item:hover {
+      color: #fff;
+    }
+
+    .cta p:hover {
+      color: #fff;
+    }
+
+    .Sign-btn:hover {
+      color: black;
+      background-color: aliceblue;
+    }
+  </style>
+</body>
+
+</html>
